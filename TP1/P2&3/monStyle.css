@@ -1,0 +1,44 @@
+img{
+    max-width: 200px;
+}
+
+h2{
+    font-family: serif;
+}
+
+.avecserif{
+    font-size: 1.1em;
+}
+
+p{
+    font-family: sans-serif;
+    color: #404040;
+}
+
+header{
+    font-family: sans-serif;
+    font-size: 120%;
+    text-align: left;
+}
+
+nav a:link {
+    color: green;
+}
+
+nav a:visited {
+    color: blue;
+}
+
+nav a:hover {
+    color: yellow;
+}
+
+nav a:active {
+    color: red;
+}
+
+footer{
+    font-family: sans-serif;
+    font-size: 0.9em;
+    text-align: center;
+}
