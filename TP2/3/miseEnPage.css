@@ -1,0 +1,51 @@
+body{
+    display: flex;
+    flex-direction: column;
+    min-height: 98vh;
+}
+main{
+    flex: 1 1 auto;
+    display: flex;
+    flex-direction: column;
+}
+
+header{
+    background-color: red;
+    height: 20vh;
+}
+
+nav {
+    background-color: blue;
+    height: 10vh;
+    display:flex;
+    flex-direction: column;
+}
+
+section {
+    background-color: gray;
+    flex-grow: 1;
+}
+
+comment {
+    background-color: palegreen;
+    height: 10vh;
+}
+
+footer {
+    background-color: yellow;
+    height: 10vh;
+}
+
+@media (min-width: 764px) {
+    nav {
+        flex-direction: row;
+    }
+
+    main {
+        flex-direction: row-reverse;
+    }
+
+    comment {
+        height: initial;
+    }
+}
