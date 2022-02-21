@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<label for="val">valeur à convertir</label><input type="number" id="val" onchange="resetRes()">
+<br>
+<select id="conversion" onchange="resetRes()">
+    <option value="1/2.54">cm->pouce</option>
+    <option value="2.54">pouce->cm</option>
+    <option value="453.6">lb->g</option>
+    <option value="1/453.6">g->lb</option>
+</select>
+<br>
+<label for="res">resultat</label><input type="number" id="res">
+<br>
+<button onclick="convertir()">Convertir</button>
+<script src="conversion.js"></script>
+</body>
+</html>
