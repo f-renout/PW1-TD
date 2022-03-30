@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="test.css">
+</head>
+<body>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+<script type="text/javascript">
+    $(document).ready(function (){
+        //$("p").click(function(){alert($(this).text())})
+        $(".description").click(function(){alert($(this).text())})
+        $("#test").click(function(){alert($(this).text())})
+    });
+</script>
+</body><div class="image">
+    <img src="https://via.placeholder.com/400x200" alt="Mon image1"/>
+    <p class="description">La description de l’image1</p>
+</div>
+<div class="image">
+    <img src="https://via.placeholder.com/400x200" alt="Mon image2"/>
+    <p class="description">La description de l’image2</p>
+</div>
+<div class="image">
+    <img src="https://via.placeholder.com/400x200" alt="Mon image3"/>
+    <p class="description">La description de l’image3</p>
+</div>
+<p id="test">blablabla</p>
+</html>

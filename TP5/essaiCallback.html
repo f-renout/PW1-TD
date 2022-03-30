@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<div class="callback">
+  <p>Du texte</p>
+  <p class="disparaitre">Test d'une fonction de rappel</p>
+  <p>Du texte, encore</p>
+</div>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+<script type="text/javascript">
+  $(document).ready(function (){
+    $(".callback").click(function(){
+      let find = $(this).find(".disparaitre");
+      find.hide(1000, function(){find.text("blabla");find.show(1000)});
+    })
+  });
+</script>
+</body>
+</html>

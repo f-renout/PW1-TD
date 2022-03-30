@@ -1,6 +1,10 @@
 body{
 
 }
+.image{
+    max-width: 50%;
+    max-height: 50%;
+}
 
 header{
     background-color: red;
@@ -17,8 +21,9 @@ nav {
 section {
     display: inline-block;
     background-color: gray;
-    width: 60vw;
+    width: 59vw;
     height: 60vh;
+    vertical-align: top;
 }
 
 comment {
